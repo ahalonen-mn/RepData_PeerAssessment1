@@ -2,9 +2,7 @@
 title: "Course 5 Week 2 Assignment"
 author: "Halonen, Ally"
 date: "10/19/2020"
-output: 
-  html_document: 
-    keep_md: true 
+output: github_document
 ---
 
 
