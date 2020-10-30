@@ -5,8 +5,8 @@ date: "10/19/2020"
 output: html_document
 ---
 
-```{r global_options}
-knitr::opts_chunk$set(fig.path='Figs/')
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE)
 
 library(tidyverse)
 library(dplyr)
