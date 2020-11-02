@@ -39,7 +39,7 @@ Then, make a histogram of the total number of steps taken each day
 hist(df_days$steps, xlab = 'Number of Steps Per Day', main = "Number of Steps")
 ```
 
-![](PA1_template_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](unnamed-chunk-2-1.png)<!-- -->
 
 Calculate the mean and median.
 
@@ -71,7 +71,7 @@ df_avg <- df %>%
 plot(df_avg$interval, df_avg$steps, type = "l", ylab = "5 Minute Interval", xlab = "Average Steps", main = "Average Number of Steps")
 ```
 
-![](PA1_template_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](unnamed-chunk-4-1.png)<!-- -->
 
 Which 5-minute interval, on average across all the days in the dataset,
 contains the maximum number of steps?
@@ -123,7 +123,7 @@ df_days_na <- df_with_na %>%
 hist(df_days_na$steps, xlab = 'Number of Steps Per Day', main = "Number of Steps")
 ```
 
-![](PA1_template_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](unnamed-chunk-8-1.png)<!-- -->
 
 ``` r
 mean_steps_na <- mean(df_days_na$steps)
@@ -170,4 +170,4 @@ xyplot(steps ~ interval | weekday, df_with_na_wk, type = "l", layout = c(1, 2),
        xlab = "Interval", ylab = "Number of steps")
 ```
 
-![](PA1_template_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](unnamed-chunk-10-1.png)<!-- -->
